@@ -12,6 +12,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
             System.out.println("Starting...");
             ChromeOptions option = new ChromeOptions();
             option.addArguments("--remote-allow-origins=*");
+            option.addArguments("--disable-blink-features=AutomationControlled");
+
 
             WebDriverManager.chromedriver().setup();
             ChromeDriver driver = new ChromeDriver(option);
