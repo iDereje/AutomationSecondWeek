@@ -25,7 +25,7 @@ SeleniumBase base = new SeleniumBase();
     emailField.sendKeys(Keys.ENTER);
 
 WebElement das = driver.findElement(By.cssSelector("input.zHQkBf"));
-das.sendKeys("BFpGEA7x9uCj3wc");
+das.sendKeys("");
 das.sendKeys(Keys.ENTER);
 
     // Search for a video
